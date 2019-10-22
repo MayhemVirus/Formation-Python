@@ -7,13 +7,13 @@ def exercice_regex():
         print("La phrase est au bon format. Groupes : "+str(groupes))
     else:
         print("La phrase n'est pas au bon format")
-    mots = phrase.split(" ")
-    for mot in mots:
-        if verif_mot(mot):
-            continue
-        else:
-            print ("Nope")
-            break
+    # mots = phrase.split(" ")
+    # for mot in mots:
+    #     if verif_mot(mot):
+    #         continue
+    #     else:
+    #         print ("Nope")
+    #         break
 def verif_phrase(phrase):
     mots = phrase.split(" ")
     for mot in mots:
