@@ -133,4 +133,3 @@ class Mouton(Animal):
     @staticmethod
     def genere_nom():
         return random.choice(["Cotelette","Gigot","Steak","Lasagne","Couscous"])
-Population.jouer()
