@@ -16,6 +16,7 @@ def output_to(path, content):
     else:
         print(content)
 
+#definition des paramètre : integer et output
 parser = ArgumentParser(description="racine carrée")
 parser.add_argument('-i', '--integer', required=True, type=int, nargs=1)
 parser.add_argument('-o', '--output')
